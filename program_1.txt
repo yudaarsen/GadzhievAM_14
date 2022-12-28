@@ -1,0 +1,8 @@
+set rc 0
+movd rc rc
+set ri 1
+movd ri rb
+add ra rb
+inc ri
+mov rcmp ri
+jmple rc 3
